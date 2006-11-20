@@ -8,6 +8,7 @@ WriteMakefile(
 	      VERSION_FROM        => 'lib/Acme/Greek.pm',
 	      ABSTRACT_FROM       => 'lib/Acme/Greek.pm',
 	      PL_FILES            => {},
+	      LICENSE             => 'perl',
 	      dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
 	      clean               => { FILES => 'Acme-Greek-*' },
 	     );
